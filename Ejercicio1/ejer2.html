@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios de Lógica de Programación ( 1 / 10 )</title>
+</head>
+
+<body>
+  <h1>Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe.
+    miFuncion("Hola Mundo", 4) devolverá "Hola".</h1>
+
+  <script>
+    let cadena = "Hola Mundo";
+
+    function miFuncion(canCat) {
+      cadRes = cadena.substring(0, canCat)
+      return cadRes;
+    }
+
+    let valorDeFuncion = miFuncion(4);
+
+    console.log(valorDeFuncion);
+    console.log(typeof valorDeFuncion);
+  </script>
+</body>
+
+</html>
